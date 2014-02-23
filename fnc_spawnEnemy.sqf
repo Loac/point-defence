@@ -1,4 +1,4 @@
-// usage: [position, route] execvm "enemyCreate.sqf"
+// usage: [position, route] execvm "fnc_spawnEnemy.sqf"
 
 // Параметры функции.
 
