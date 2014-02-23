@@ -1,0 +1,5 @@
+author="Loac";
+OnLoadName = "Point Defence";
+
+disabledAI = 1;
+enableDebugConsole = 2;
