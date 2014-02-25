@@ -10,10 +10,10 @@ _route = _this select 1;
 
 
 // Создать группу для бойца.
-_group = createGroup west;
+_group = createGroup east;
 
 // Создать бойца.
-_unit = _group createUnit ["B_Soldier_F", _position, [], 0, "FORM"];
+_unit = _group createUnit ["O_Soldier_F", _position, [], 0, "FORM"];
 
 // Добавить бойцу все вейпоинты.
 {

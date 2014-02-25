@@ -4,7 +4,6 @@ class Mission
 	addOns[]=
 	{
 		"A3_Characters_F_BLUFOR",
-		"a3_characters_f_beta",
 		"a3_map_stratis",
 		"A3_Data_F",
 		"cadata"
@@ -12,7 +11,6 @@ class Mission
 	addOnsAuto[]=
 	{
 		"A3_Characters_F_BLUFOR",
-		"a3_characters_f_beta",
 		"a3_map_stratis"
 	};
 	randomSeed=9603837;
@@ -42,15 +40,26 @@ class Mission
 			side="WEST";
 			class Vehicles
 			{
-				items=1;
+				items=2;
 				class Item0
 				{
-					position[]={2981.2996,171.39999,1864.6968};
+					position[]={2980.4756,171.39999,1867.1274};
+					azimut=90;
 					id=0;
 					side="WEST";
-					vehicle="B_recon_M_F";
+					vehicle="B_Soldier_F";
 					player="PLAYER COMMANDER";
 					leader=1;
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					position[]={2987.2913,171.38959,1867.1274};
+					azimut=275;
+					id=1;
+					side="WEST";
+					vehicle="B_Soldier_F";
+					player="PLAY CDG";
 					skill=0.60000002;
 				};
 			};

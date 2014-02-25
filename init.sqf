@@ -2,7 +2,7 @@
 enableSaving [false, false];
 
 // Расстояние спавна противников.
-enemyRange = 10;
+enemyRange = 100;
 
 // Изначальное число противников.
 enemyCount = 1;
