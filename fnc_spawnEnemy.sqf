@@ -10,14 +10,14 @@ _route = _this select 1;
 
 
 // Создать группу для бойца.
-_group = CreateGroup west;
+_group = createGroup west;
 
 // Создать бойца.
-_unit = _group CreateUnit ["B_Soldier_F", _position, [], 0, "FORM"];
+_unit = _group createUnit ["B_Soldier_F", _position, [], 0, "FORM"];
 
 // Добавить бойцу все вейпоинты.
 {
 	_waypoint = _group addWaypoint[_x, 0];
 } foreach _route;
 
-_unit addEventHandler ["killed", {hint "Hello"}];
+_unit addEventHandler ["killed", {_null = _this execvm "hnd_onEnemyKilled.sqf"}];
