@@ -9,7 +9,7 @@ enemyCount = 1;
 
 // Координата, от которой расчитываются спавны противников.
 // К этой же координате они будут двиаться.
-enemyCenter = [2980.53,1872.95,0.00143433];
+enemyCenter = [6065.5,5631.89,0.00148773];
 
 // Первый спавн противника.
 _null = [enemyRange, enemyCount, [enemyCenter]] execvm "fnc_spawnEnemyAroundMe.sqf";
