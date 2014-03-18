@@ -13,3 +13,5 @@ enemyCenter = [6065.5,5631.89,0.00148773];
 
 // Первый спавн противника.
 _null = [enemyRange, enemyCount, [enemyCenter]] execvm "fnc_spawnEnemyAroundMe.sqf";
+
+// Some changes.
